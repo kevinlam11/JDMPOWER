@@ -68,7 +68,9 @@ JDM cars are renowned for their unique styling, blending aggressive lines with s
   The culture encompasses not only the cars themselves but also the vibrant community of enthusiasts, events, and gatherings. Car meets, races, and shows dedicated to JDM cars provide opportunities for like-minded individuals to come together, share their passion, and celebrate the rich heritage of Japanese automotive engineering.
 </p>
           <video autoPlay loop muted className="video">
+          <source src="/images/WWW.mp4" type="video/mp4" />
           </video>
+          <script src="https://player.vimeo.com/api/player.js" />
         </section>
       </body>
     </div>
