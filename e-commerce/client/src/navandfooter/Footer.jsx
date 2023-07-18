@@ -21,16 +21,20 @@ const Footer = () => {
       </p>
       <div className='footericons'>
         <a href='https://www.youtube.com'>
-          <img src='/images/youtube.AVIF' width='25px' alt='youtube' />
+          Youtube
+          {/* <img src='/images/youtube.AVIF' width='25px' alt='youtube' /> */}
         </a>
         <a href='https://www.instagram.com/'>
-          <img src='/images/insta.AVIF' width='25px' alt='instagram' />
+          Instagram
+          {/* <img src='/images/insta.AVIF' width='25px' alt='instagram' /> */}
         </a>
         <a href='https://www.twitter.com'>
-          <img src='/images/twitter.AVIF' width='25px' alt='twitter' />
+          Twitter
+          {/* <img src='/images/twitter.AVIF' width='25px' alt='twitter' /> */}
         </a>
         <a href='https://www.facebook.com'>
-          <img src='/images/FB.AVIF' width='25px' alt='facebook' />
+          Facebook
+          {/* <img src='/images/FB.AVIF' width='25px' alt='facebook' /> */}
         </a>
       </div>
     </footer>

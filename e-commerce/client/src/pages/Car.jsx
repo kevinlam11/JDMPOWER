@@ -9,7 +9,7 @@ const Car = () => {
   useEffect(() => {
     const fetchAllCar = async () => {
       try {
-        const res = await axios.get('http://localhost:9000/car');
+        const res = await axios.get('https://magical-llama-6e690a.netlify.app');
         setCar(res.data);
       } catch (err) {
         console.log(err);

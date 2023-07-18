@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <nav id='navbar'>
       <div className='link'>
-      <img class="hero" src="/images/JDM.webp" alt="JDM" />
+      {/* <img class="hero" src="/images/JDM.webp" alt="JDM" /> */}
           <li>
             <Link className='white' to='/'>
               Home
