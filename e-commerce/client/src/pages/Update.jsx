@@ -23,6 +23,7 @@ const carId = location.pathname.split('/')[2];
   const handleClick = async (e) => {
     e.preventDefault();
     try {
+      await axios.put('http://localhost:9000/car/'+ carId, car);
       navigate('/product');
     } catch (err) {
       console.log(err);

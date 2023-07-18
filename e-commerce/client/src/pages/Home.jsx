@@ -3,7 +3,9 @@ import React, { useEffect, useRef } from 'react';
 const Home = () => {
   const slideRef = useRef(null);
   const images = [
- 
+    '/images/AAA.jpg',
+    '/images/BBB.jpg',
+    '/images/CCC.jpg'
   ];
   let i = 0;
   const time = 3000;
