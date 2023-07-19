@@ -22,19 +22,19 @@ const Footer = () => {
       <div className='footericons'>
         <a href='https://www.youtube.com'>
           Youtube
-          {/* <img src='/images/youtube.AVIF' width='25px' alt='youtube' /> */}
+          <img src='/images/youtube.AVIF' width='25px' alt='youtube' />
         </a>
         <a href='https://www.instagram.com/'>
           Instagram
-          {/* <img src='/images/insta.AVIF' width='25px' alt='instagram' /> */}
+          <img src='/images/insta.AVIF' width='25px' alt='instagram' />
         </a>
         <a href='https://www.twitter.com'>
           Twitter
-          {/* <img src='/images/twitter.AVIF' width='25px' alt='twitter' /> */}
+          <img src='/images/twitter.AVIF' width='25px' alt='twitter' />
         </a>
         <a href='https://www.facebook.com'>
           Facebook
-          {/* <img src='/images/FB.AVIF' width='25px' alt='facebook' /> */}
+          <img src='/images/FB.AVIF' width='25px' alt='facebook' />
         </a>
       </div>
     </footer>
