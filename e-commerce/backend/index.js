@@ -13,7 +13,10 @@ const db = mysql.createConnection({
 
 // MIDDLEWARE
 app.use(express.json());
-app.use(cors());
+const cors = require('cors');
+app.use(cors({ origin: '*'}
+
+));
 
 // GET
 app.get('/', (req, res) => {
